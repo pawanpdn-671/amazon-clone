@@ -1,5 +1,27 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #131921;
+	position: sticky;
+	display: flex;
+	align-items: center;
+	top: 0;
+	z-index: 100;
+}
+
+.header .header-logo {
+	width: 100px;
+}
+.header .header-logo img {
+	width: 100%;
+}
+
+.header .header-search .header-search-icon {
+	padding: 5px;
+	height: 22px !important;
+	background-color: #cd9042;
 }

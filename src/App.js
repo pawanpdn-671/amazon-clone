@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from './reusable/Header';
 
 function App() {
   return (
     <div className="App">
-      Pawan Pradhan
+      <Header />
     </div>
   );
 }

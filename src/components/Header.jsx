@@ -1,4 +1,5 @@
 import SearchIcon from "@mui/icons-material/Search";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import React from "react";
 
 function Header() {
@@ -19,21 +20,30 @@ function Header() {
 			<div className="header-nav">
 				<div className="header-nav-option">
 					<span className="header-nav-option-line1">
-						Hello Guest
+						Hello, Sign in
 					</span>
 					<span className="header-nav-option-line2">
-						Sign In
+						Account & Lists
 					</span>
 				</div>
 				<div className="header-nav-option">
 					<span className="header-nav-option-line1">
 						Returns
 					</span>
-					<span className="header-nav-option-line2">Orders</span>
+					<span className="header-nav-option-line2">
+						& Orders
+					</span>
 				</div>
 				<div className="header-nav-option">
 					<span className="header-nav-option-line1">Your</span>
 					<span className="header-nav-option-line2">Prime</span>
+				</div>
+
+				<div className="header-nav-option-basket">
+					<ShoppingCartIcon className="shopping-cart-icon" />
+					<span className="header-nav-option-line2 nav-basket-count">
+						0
+					</span>
 				</div>
 			</div>
 		</div>
